@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.about,.skill,.contact,.education{
+    top: 0;
+    left: 0;
+    margin-left: 15%;
+}
+#home,#about,#skill,#education,#contact{
+    position:inherit;
+}
+
+#image{
+    width: 200px;
+    height: 180px;  
+    border-radius: 50%;
+}
+/* button{
+    background-color: #5C8374;
+    display: block;
+    size:px;
+} */
+#col{
+    width:90%;
+    height:30%
+}
+#col img{
+    padding-bottom: 30px;
+    padding-top:30px;
+    width:100%;
+    height:110%;
+    border-radius: 50%;
+    clip-path: circle();
+    object-fit: cover;
+    border-color:#5C837;
+    margin-bottom: 20px;
+}
+#main{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left:5% ;
+}
+#main a{
+    margin-left: 5px;
+    padding-left: 8px;    
+}
+#main img{
+    width:2%;
+    height: 2%;
+}
+
+a img{
+    width:8%;
+    height:8%;
+}
+.nav_side a{
+    text-decoration:none ;
+    padding: 10px 10px 8px 8px;
+    display: block; 
+    color:black;
+    font-size: 20px;
+}
+.nav_side{
+    
+    height: 100%; 
+    width: 15%;
+    background-color:#F3EEEA;
+    position:fixed;
+    top: 0;
+    left: 0;
+    /* padding-top: 20px;
+} */
+}
+.nav_side a.active,a:hover {
+    transition:5s;
+    flex: 0 0 50%;
+    top: 0;
+    left: 0;
+    position:inherit;
+    width:115%;
+    padding-top: 3px;
+    background-color: #5C8374; 
+    
+  }
+h3{
+    padding-left:15%;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 20px;
+    padding-left: 8%;
+    font-size:30px ;
+
+}
+h2:hover{
+    font-style:italic;
+}
+.about-text p,dl{ 
+    padding-top: 2%;
+    padding-left: 5%;
+    font-size:25px ;
+}
+.about-text dd{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.front p{
+    margin-top: 3%;
+    padding-bottom: 20px;
+    font-size:30px ;
+    padding-left: 8%;
+}
+.front h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:50px ;
+    padding-left: 8%;
+}
+.front{
+    background-color: #5C8374;
+    flex: 0 0 50%;
+    top: 0;
+    left: 0;
+    margin-left: 10%;
+    padding-left:20px ;
+    padding-top: 20px;
+    width:90%;
+    height: 780px;
+}
+#home a{
+    padding-left: 5%;
+}
+.about-text{
+    margin-left: 5%;
+    border: 2px solid  width:20%;
+    box-shadow: 4px 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.1);
+    width:90%;
+}
+.skill-title h1, .education-title h1 , .contact-title h1{
+    width: 83%;
+    margin-left: 10%;
+    background-color:#1B4242;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-size:60px ;
+} 
+* .mypic{
+    padding-left:70%;
+    /* width: 100%; 
+    height: 200%; */  
+}
+.mypic img{
+    
+} 
+.about-title h1{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:83%;
+    background-color:#1B4242;
+    font-size:60px ;
+}
+.row
+ {
+    flex: 0 0 50%; 
+    margin-left:10%;
+    width: 90%;
+    height: 100%; 
+    color:black;
+    background-color:white;
+}
+.skills,.education{
+    top: 0;
+    left: 0;
+    margin-left:15%;
+    flex :0 0 50%; 
+    width:80%;
+    height: 580px%;
+    color:black;
+    background-color:white;
+}
+
+
+td img{
+    padding:20px;
+    width:150px;
+     aspect-ratio: 3/2;
+    object-fit: contain;
+    /* mix-blend-mode:color-burn ; */ 
+}
+table{
+    width:100%;
+    height: 580px;
+    border: 2px solid  width 5%;
+    box-shadow : 4px 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.1);
+}
+.education dl{
+    padding-left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 30px;
+}
+
+.education dd{
+    padding-left: 5%;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.contact img{
+    width:20px;
+    height:25px; 
+}
+.contact img:hover{
+    width:25px;
+    height:30px;
+    background-color: #5C8374;
+}
+.contact a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.contact{
+    top: 0;
+    left: 0;
+    width:80%;
+    flex: 0 0 50%; 
+    height:580px;
+    border: 2px solid  width:20%;
+    box-shadow: 4px 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.1);
+    padding-left: 5%;
+    margin-left:15%;
+     padding-top: 4%;
+}
+.contact p{
+    padding-top: 5%;
+}
+#home,#about,#skill,#education,#contact{
+    
+    position:inherit;
+}
+
+
+figcaption{
+    padding-left: 60px;
+    font-size: 25px;
+    font-family:cursive;
+}
+.skill-title,.contact-title,.education-title{
+    width:105%;
+    padding-top: 20px;
+    margin-left:3%;
+    padding-bottom: 20px;
+}
+.about-title{
+    width:115%;
+    padding-top: 20px;
+    margin-left:5%;
+    padding-bottom: 20px;
+}
+ 
+
+@media (max-width:952px){
+   # col img{
+    margin-left: 10px;
+    width:10%;
+    height:10%;
+   }
+
+   #col{
+    height:15%;
+   }
+    #image a{
+        font-size: 10px;
+        width: 50px;
+        height: 40px;  
+        border-radius: 20%;
+   }
+   
+}
